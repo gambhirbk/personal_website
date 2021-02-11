@@ -5,75 +5,75 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .subtitle {
-    display: inline-block;
-    color: rgb(212, 212, 212);
-    font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .block-container {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .block-photo {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .textbox {
-    position: absolute;
-    text-align: center;
-    height: 25%;
-    width: 50%;
-    right: 0;
-    top: 0;
-  }
-  
-  .textbox:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-  }
-  
-  .jumbotron {
-    margin: 5% 20%;
-  }
-  
-  .headshotImg {
-    max-width: 100%;
-    max-width: 100%;
-  }
-  z
-  .squareLogo {
-    width: 37px;
-    height: 37px;
-    padding: 0;
-  }
-  
-  .logoImg {
-    width: 37px;
-    height: 37px;
-    padding: 0;
-  }
-  
-  .backgroundlessBtn {
-    background-color: transparent;
-    border-color: transparent;
-  }
-  
-  .inLine {
-    display: inline;
-  }
-  
-  .customRow {
-    margin: 3em 0;
-  }
-  
-  .linkBtn {
-    height: 4em;
-    width: 6em;
-  }
+.subtitle {
+  display: inline-block;
+  color: rgb(212, 212, 212);
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.block-container {
+  display: inline-block;
+  position: relative;
+}
+
+.block-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.textbox {
+  position: absolute;
+  text-align: center;
+  height: 25%;
+  width: 50%;
+  right: 0;
+  top: 0;
+}
+
+.textbox:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.jumbotron {
+  margin: 5% 20%;
+}
+
+.headshotImg {
+  max-width: 100%;
+  max-width: 100%;
+}
+
+.squareLogo {
+  width: 37px;
+  height: 37px;
+  padding: 0;
+}
+
+.logoImg {
+  width: 37px;
+  height: 37px;
+  padding: 0;
+}
+
+.backgroundlessBtn {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.inLine {
+  display: inline;
+}
+
+.customRow {
+  margin: 3em 0;
+}
+
+.linkBtn {
+  height: 4em;
+  width: 6em;
+}
