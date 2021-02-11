@@ -101,26 +101,34 @@
     transform-origin: bottom center;
 }
 
-.block-container {
-    display: inline-block;
-    position: relative;
+.container {
+    margin-top: 5%
+}
+
+.headshotImg {
+  max-width: 100%;
+  max-width: 100%;
+}
+
+.squareLogo {
+  width: 37px;
+  height: 37px;
+  padding: 0;
+}
+
+.logoImg {
+  width: 37px;
+  height: 37px;
+  padding: 0;
+}
+  
+  .backgroundlessBtn {
+    background-color: transparent;
+    border-color: transparent;
   }
-
-.textbox {
-position: absolute;
-text-align: center;
-height: 25%;
-width: 50%;
-right: 0;
-top: 0;
-}
-
-.customRow {
-margin: 3em 0;
-}
+  
 
 .linkBtn {
-height: 4em;
-width: 6em;
+  height: 4em;
+  width: 6em;
 }
-
