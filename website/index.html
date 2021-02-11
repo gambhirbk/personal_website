@@ -8,13 +8,11 @@
 
     <!-- Bootstrap CDN stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
 
     <!--My custom stylesheet-->
     <link rel="stylesheet" href="style.css"  />
     <style></style>
     <script async="" src="https://negbar.ad-blocker.org/chrome/adblocker-chromeglobalinjectjs.js"></script>
-
   </head>
   
   <body data-new-gr-c-s-check-loaded= "14.993.0" data-gr-ext-installed>
@@ -26,35 +24,22 @@
       <!--Collapsable navbar items-->
       <div class="navbar-collapse collapse" id="navbarSupportedContent" style>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="clock/clock.html"> Clock</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="https://gambhirkunwar.github.io/GambhirKunwar_resume.pdf"> Resume </a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="coming-soon.html"> Assignment1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="coming-soon.html"> Assignment2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="coming-soon.html"> Assignment3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="coming-soon.html"> Assignment4</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="coming-soon.html"> Assignment5</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="coming-soon.html"> Final Project</a>
-          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="work-dropdown" data-toggle="dropdown" aria-label="assignments dropdown" aria-expanded="false">Assignments </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="clock/clock.html" id="Clock" aria-label="Clock">Clock</a>
+                <a class="dropdown-item" href="coming-soon.html" id="assignment1" aria-label="Asssignment1">Assignment 1</a>
+                <a class="dropdown-item" href="coming-soon.html" id="assignment2" aria-label="asssignment2">Assignment 2</a>
+                <a class="dropdown-item" href="coming-soon.html" id="assignment3" aria-label="asssignment3">Assignment 3</a>
+                <a class="dropdown-item" href="coming-soon.html" id="assignment4" aria-label="asssignment4">Assignment 4</a>
+                <a class="dropdown-item" href="coming-soon.html" id="assignment5" aria-label="asssignment5">Assignment 5</a>
+                <a class="dropdown-item" href="coming-soon.html" id="final_project" aria-label="final_project">Final Project</a>
+            </div>
+        </li>
         </ul>
       </div>
 
-
-    <!--Linkedln and Github logos-->
+    <!--Linkedln logos-->
     <div class="mr-2 ml-auto">
       <ul class="navbar-nav">
         <li>
@@ -62,7 +47,6 @@
             <img src="images/linkedlnLogo.png" alt="Linkedln Logo" class="logoImg">
           </a>
         </li>
-
       </ul>
     </div>
 
@@ -83,42 +67,41 @@
       </button>
     </nav>
 
-
     <!--Main photo-->
         <div class="block-container">
-          <img class="block-photo" src="images/dcWAMonument.jpg" alt="DC at day, Gambhir in middle, washington monument on the background">
+          <div class="textbox">
+            <h1 class="title">Gambhir Kunwar</h1>
+            <h3 class="subtitle">My Personal Portfolio </h3>
+          </div>
+          <img class="block-photo" src="images/tucsonAZ.jpg" alt="Tucson at sunset, Gambhir in left with a friend, sunset is happening">
         </div>
 
-    <!--About Me-->
-
-    <div class="jumbtron">
+    <!--About Me Jumbotron-->
+    <div class="jumbotron">
       <h1 class="display-4">About me</h1> 
       <p> Data Analyst -> Software Engineer </p>
       <hr class="my-4">
       <p class="lead">
-      "I am a graduate student at Northeastern University in Seattle. I completed my bachelor's degree from Whitman College in Ecomomics and Mathematics.
-      I worked as a data analyst for two and half years. I realized I want to learn coding while working as an analyst. I decide to pursue master's in computer Science. 
-      My goal is to become a software engineer and work on projects that I can bring a greater impact."
+        I grew up in Nepal, where my family could not afford higher education. 
+        Fortunately, in high school I learned that I could attend certain colleges in the U.S. on a full scholarship.
+         We didn’t have internet access at home, but I started regularly commuting to a library where I could go online and complete applications, research visas, and apply for financial aid.
+      </p>
+      <p class="lead">
+        Attending college in the U.S. changed my life. It vastly expanded my educational opportunities and altered my perspectives. 
+        I studied mathematics and economics, allowing me to work in data science post-college. 
+        I enjoyed this work, but soon realized the importance of being able to code if I wanted to work on advanced data science projects.
       </p>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+      <p class="lead">
+        In 2018, I began to study Python in my free time. I loved it, but could not pursue it as I wished. I began considering CS graduate programs. I want shift from data science to software engineering, as I am attracted to building softwares.
+        I now see my future in the U.S., where I hope to make a career in tech—an industry that is almost nonexistent in Nepal.
+      </p>
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-
+    <!-- BootstrapCDN scripts (for general styling) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+    
   </body>
 </html>
